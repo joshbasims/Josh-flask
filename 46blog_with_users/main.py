@@ -19,6 +19,8 @@ app.config['SECRET_KEY'] = os.environ["SECRET_KEY"]
 ckeditor = CKEditor(app)
 Bootstrap(app)
 
+## Testing if git hub finds this
+
 ##CONNECT TO DB
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
